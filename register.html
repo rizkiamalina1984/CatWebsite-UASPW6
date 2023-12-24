@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #0e172c;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .register-container {
+        background-color: white;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 300px;
+        border-radius: 20px;
+      }
+
+      .register-container h2 {
+        text-align: center;
+        color: black;
+      }
+
+      .register-form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .form-group {
+        margin-bottom: 10px;
+      }
+
+      .form-group label {
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: black;
+      }
+
+      .form-group input {
+        width: 90%;
+        padding: 8px;
+        margin: 8px 4px;
+        font-size: 16px;
+        border: 1px solid palevioletred;
+        border-radius: 10px;
+      }
+
+      .form-group button {
+        background-color: palevioletred;
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 16px;
+      }
+
+      .form-group button:hover {
+        background-color: rgb(237, 20, 121);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="register-container">
+      <h2>Buat Akun</h2>
+      <form class="register-form" action="#" method="">
+        <div class="form-group">
+          <label for="firstName">Nama Depan :</label>
+          <input type="text" id="firstName" name="firstName" required />
+        </div>
+        <div class="form-group">
+          <label for="lastName">Nama Belakang :</label>
+          <input type="text" id="lastName" name="lastName" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email :</label>
+          <input type="text" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Buat Kata Sandi :</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+          <center>
+            <button type="submit">Daftar</button>
+          </center>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
