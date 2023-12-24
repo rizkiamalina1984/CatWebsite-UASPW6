@@ -1,0 +1,188 @@
+/* Base Styles */
+ body {
+    background-color: #fec7d7;
+    padding-top: 60px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+/* Navbar Styles */
+.navbar {
+    background-color:#0e172c;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0 16px;
+    margin-top: 5px;
+    transition: top 0.3s;
+}
+
+/* Untuk Membuat Sticky Navbar */
+.navbar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-title {
+    color: white; /* Warna judul navbar */
+    font-size: 24px; /* Ukuran font judul navbar */
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px; /* Jarak antara logo dan judul */
+    position: relative;
+}
+
+.menu-links {
+    display: flex; /* Mengubah menu-links menjadi flex container */
+    align-items: center; /* Menyusun elemen-elemen secara vertikal di tengah */
+}
+
+.menu-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.navbar a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; 
+}
+
+.navbar a:hover {
+    background-color: #fec7d7;
+    color: white;
+    border-radius: 25px;
+}
+
+/* Judul H1 */
+h1 { 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #0e172c;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 38px;
+    padding-bottom: 15px;
+}
+
+/* Cat Container Styles */
+.cat-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.custom-button {
+    background-color: palevioletred;
+    border: 2px solid black; 
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Memberikan jarak di bawah tombol */
+    cursor: pointer; /* Menampilkan cursor pointer saat diarahkan */
+}
+
+.custom-button:hover {
+    background-color: rgb(237, 20, 121); 
+}
+
+.custom-button span {
+    font-size: 16px;
+}
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.info-table {
+    background-color: #0e172c;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    color: white; /* Set text color to white */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cat-table {
+    background-color: #0e172c;
+    border: 1px solid #ccc;
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white; /* Set text color to white */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+.cat-image {
+    max-width: 100%;
+}
+
+.cat-name {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.cat-description {
+    padding: 10px;
+}
+
+.cat-table img {
+    max-width: 100%;
+}
+
+.gif-container {
+    margin-right: center; /* Posisikan ke sebelah kiri */
+}
+
+.gif-image {
+    width: 70px; 
+    height: auto; 
+}
+
+/* Footer */
+.footer {
+    background-color: #0e172c;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    padding: 10px 20px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 4px solid #fd84ad;
+    width: 100%; /* Set width to 100% */
+    bottom: 0; /* Stick to the bottom */
+    left: 0; /* Stick to the left */
+}
