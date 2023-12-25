@@ -4,7 +4,7 @@ Anggota Kelompok :
 1. Rizki Amalina Triwahyuni Nasution (221401123)
 2. Kyla Zahra Winnetou (221401106)
    
-Link Video Youtube :
+Link Video Youtube : https://youtu.be/qG7BHrKbSbc
 Link Website Hosting : https://catkingdom.000webhostapp.com/
 
 -- Halaman Home :
